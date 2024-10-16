@@ -1,0 +1,192 @@
+[
+    {
+        "id": 1,
+        "title": "E-commerce Platform",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "An online store that allows users to browse products, add them to their cart, and securely check out.",
+        "photo": "https://via.placeholder.com/800x400.png?text=E-commerce+Platform",
+        "client_side_code": "https://github.com/yourusername/ecommerce-client",
+        "server_side_code": "https://github.com/yourusername/ecommerce-server",
+        "live_link": "https://ecommerce-platform.com"
+    },
+    {
+        "id": 2,
+        "title": "Social Media Application",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "A social media app where users can create profiles, post updates, and connect with friends.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Social+Media+App",
+        "client_side_code": "https://github.com/yourusername/social-media-client",
+        "server_side_code": "https://github.com/yourusername/social-media-server",
+        "live_link": "https://socialmediaapp.com"
+    },
+    {
+        "id": 3,
+        "title": "Task Management Tool",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "A task management application that helps users organize their tasks, set deadlines, and track progress.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Task+Management+Tool",
+        "client_side_code": "https://github.com/yourusername/task-manager-client",
+        "server_side_code": "https://github.com/yourusername/task-manager-server",
+        "live_link": "https://taskmanagementtool.com"
+    },
+    {
+        "id": 4,
+        "title": "Personal Portfolio Website",
+        "technologies": ["HTML", "CSS"],
+        "details": "A personal portfolio website showcasing my projects, skills, and experiences.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Portfolio+Website",
+        "client_side_code": "https://github.com/yourusername/portfolio-website",
+        "live_link": "https://yourportfolio.com"
+    },
+    {
+        "id": 5,
+        "title": "Interactive Quiz Application",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "details": "A fun interactive quiz application with multiple-choice questions and score tracking.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Interactive+Quiz+App",
+        "client_side_code": "https://github.com/yourusername/quiz-app",
+        "live_link": "https://interactivequizapp.com"
+    },
+    {
+        "id": 6,
+        "title": "Bootstrap Landing Page",
+        "technologies": ["HTML", "CSS", "Bootstrap"],
+        "details": "A responsive landing page created using Bootstrap framework, featuring a clean design and smooth scroll effects.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Bootstrap+Landing+Page",
+        "client_side_code": "https://github.com/yourusername/bootstrap-landing-page",
+        "live_link": "https://bootstraplandingpage.com"
+    },
+    {
+        "id": 7,
+        "title": "Tailwind CSS Website",
+        "technologies": ["HTML", "CSS", "Tailwind CSS"],
+        "details": "A sleek, modern website built with Tailwind CSS for fast styling and responsive design.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Tailwind+CSS+Website",
+        "client_side_code": "https://github.com/yourusername/tailwind-website",
+        "live_link": "https://tailwindcsswebsite.com"
+    },
+    {
+        "id": 8,
+        "title": "Recipe Sharing Application",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "A platform where users can share, discover, and save their favorite recipes.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Recipe+Sharing+App",
+        "client_side_code": "https://github.com/yourusername/recipe-sharing-client",
+        "server_side_code": "https://github.com/yourusername/recipe-sharing-server",
+        "live_link": "https://recipesharingapp.com"
+    },
+    {
+        "id": 9,
+        "title": "Event Management System",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "A system for managing events, allowing users to create, RSVP, and share event details.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Event+Management+System",
+        "client_side_code": "https://github.com/yourusername/event-manager-client",
+        "server_side_code": "https://github.com/yourusername/event-manager-server",
+        "live_link": "https://eventmanagementsystem.com"
+    },
+    {
+        "id": 10,
+        "title": "Online Learning Platform",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "An online learning platform that offers courses, quizzes, and interactive content for users.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Online+Learning+Platform",
+        "client_side_code": "https://github.com/yourusername/learning-platform-client",
+        "server_side_code": "https://github.com/yourusername/learning-platform-server",
+        "live_link": "https://onlinelearningplatform.com"
+    },
+    {
+        "id": 11,
+        "title": "Fitness Tracker",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "An application to track workouts, set fitness goals, and monitor progress over time.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Fitness+Tracker",
+        "client_side_code": "https://github.com/yourusername/fitness-tracker-client",
+        "server_side_code": "https://github.com/yourusername/fitness-tracker-server",
+        "live_link": "https://fitnesstracker.com"
+    },
+    {
+        "id": 12,
+        "title": "Blog Platform",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "A blogging platform that allows users to write, edit, and share their articles with others.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Blog+Platform",
+        "client_side_code": "https://github.com/yourusername/blog-client",
+        "server_side_code": "https://github.com/yourusername/blog-server",
+        "live_link": "https://yourblogplatform.com"
+    },
+    {
+        "id": 13,
+        "title": "Chat Application",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "A real-time chat application that allows users to communicate through text messages.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Chat+Application",
+        "client_side_code": "https://github.com/yourusername/chat-app-client",
+        "server_side_code": "https://github.com/yourusername/chat-app-server",
+        "live_link": "https://chatapplication.com"
+    },
+    {
+        "id": 14,
+        "title": "Weather App",
+        "technologies": ["HTML", "CSS", "JavaScript", "API"],
+        "details": "A weather application that provides current weather information and forecasts based on user location.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Weather+App",
+        "client_side_code": "https://github.com/yourusername/weather-app",
+        "live_link": "https://weatherapp.com"
+    },
+    {
+        "id": 15,
+        "title": "Movie Database",
+        "technologies": ["HTML", "CSS", "JavaScript", "API"],
+        "details": "An interactive movie database that allows users to search for movies, view details, and watch trailers.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Movie+Database",
+        "client_side_code": "https://github.com/yourusername/movie-database",
+        "live_link": "https://moviedatabase.com"
+    },
+    {
+        "id": 16,
+        "title": "Online Voting System",
+        "technologies": ["HTML", "CSS", "Bootstrap"],
+        "details": "A secure online voting system that allows users to cast their votes in a user-friendly interface.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Online+Voting+System",
+        "client_side_code": "https://github.com/yourusername/voting-system",
+        "live_link": "https://onlinevotingsystem.com"
+    },
+    {
+        "id": 17,
+        "title": "Fitness Blog",
+        "technologies": ["HTML", "CSS", "Tailwind CSS"],
+        "details": "A blogging platform dedicated to fitness enthusiasts, featuring articles, tips, and workout routines.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Fitness+Blog",
+        "client_side_code": "https://github.com/yourusername/fitness-blog",
+        "live_link": "https://fitnessblog.com"
+    },
+    {
+        "id": 18,
+        "title": "Portfolio Website",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "details": "A personal portfolio website showcasing my skills and projects with interactive elements.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Portfolio+Website",
+        "client_side_code": "https://github.com/yourusername/portfolio-interactive",
+        "live_link": "https://myportfolio.com"
+    },
+    {
+        "id": 19,
+        "title": "Currency Converter",
+        "technologies": ["HTML", "CSS", "JavaScript", "API"],
+        "details": "A currency converter application that allows users to convert between different currencies.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Currency+Converter",
+        "client_side_code": "https://github.com/yourusername/currency-converter",
+        "live_link": "https://currencyconverter.com"
+    },
+    {
+        "id": 20,
+        "title": "Note-taking Application",
+        "technologies": ["MongoDB", "Express", "React", "Node.js"],
+        "details": "A note-taking application where users can create, edit, and delete their notes.",
+        "photo": "https://via.placeholder.com/800x400.png?text=Note-taking+Application",
+        "client_side_code": "https://github.com/yourusername/note-taking-app-client",
+        "server_side_code": "https://github.com/yourusername/note-taking-app-server",
+        "live_link": "https://notetakingapplication.com"
+    }
+]

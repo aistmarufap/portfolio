@@ -1,0 +1,472 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'nuku';
+    src: url('../public/nuku1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'electro';
+    src: url('../public/Electroharmonix.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*==============================
+=           Container          =
+==============================*/
+.container {
+    max-width: 100%;
+    /* Full width on small devices */
+    width: 1152px;
+    /* 100% for mobile */
+    padding: 0 1rem;
+    /* Add padding for mobile devices */
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 1152px;
+        /* Restore original width for larger screens */
+    }
+}
+
+/*==============================
+=       Home Design Styles     =
+==============================*/
+.home_design {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'nuku', sans-serif;
+    z-index: 1;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../public/ichigo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+    /* Move this behind the overlay */
+    filter: blur(5px);
+    animation: shake 4s infinite;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent black overlay */
+    z-index: -1;
+    /* Make sure this is behind any other content but above the image */
+}
+
+/* Other content that should not be affected */
+.content {
+    position: relative;
+    z-index: 1;
+    /* Keep content above the overlay and background */
+    color: white;
+    /* Example: white text to contrast against dark background */
+    padding: 20px;
+}
+
+/*==============================
+=       Shake Animation        =
+==============================*/
+@keyframes shake {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(-1px, 1px);
+    }
+
+    40% {
+        transform: translate(1px, -1px);
+    }
+
+    60% {
+        transform: translate(-1px, -1px);
+    }
+
+    80% {
+        transform: translate(1px, 1px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+/*==============================
+=        Social Media Bar      =
+==============================*/
+.social_media {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(32, 33, 71, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.social_media>a {
+    margin: 15px 0;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.social_media>a:hover {
+    background-color: #fff;
+}
+
+.social_media>a:hover .social_icon {
+    transform: rotate(360deg);
+}
+
+.social_icon {
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+
+.social_icon:hover {
+    color: #E13A4B;
+}
+
+
+
+
+.active_icon {
+    background-color: #fff;
+}
+
+.active_icon .social_icon {
+    transform: rotate(360deg); 
+}
+
+.active_icon .social_icon {
+    color: #E13A4B;
+}
+
+
+.manageweb {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(32, 33, 71, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.manageweb>a {
+    margin: 15px 0;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.manageweb>a:hover {
+    background-color: #fff;
+}
+
+.manageweb>a:hover .social_icon {
+    transform: rotate(360deg);
+}
+
+
+/*==============================
+=        Page Transitions      =
+==============================*/
+.fade-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 300ms, transform 300ms;
+}
+
+/*==============================
+=           Navbar             =
+==============================*/
+.navbar {
+    background-color: transparent;
+    padding: 15px;
+    z-index: 1 !important;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    z-index: 1 !important;
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+}
+
+.nav-list li {
+    display: inline-block;
+    z-index: 1 !important;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #202147;
+    font-size: 18px;
+    padding: 10px;
+    position: relative;
+    transition: color 0.3s ease;
+    z-index: 1 !important;
+    text-shadow: 0 0 5px white,
+        0 0 10px white;
+}
+
+.active {
+    color: white !important;
+    font-weight: bold !important;
+    text-shadow: 0 0 5px #202147, 0 0 10px #202147 !important;
+}
+
+.nav-list a.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 3px;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+
+
+.nav-list a:hover {
+    color: #E13A4B;
+}
+
+.nav-list a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 3px;
+    left: 0;
+    background-color: #ff5733;
+    transition: width 0.3s ease;
+}
+
+.nav-list a:hover::after {
+    width: 100%;
+}
+
+/*==============================
+=      Homepage Design         =
+==============================*/
+.homepage {
+    z-index: 10 !important;
+}
+
+/*==============================
+=      My Info Section         =
+==============================*/
+.myinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+    color: #202147;
+    padding: 0 1rem;
+}
+
+.myinfo>div>h1 {
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px white, 0 0 20px white;
+}
+
+.myinfo>div>p {
+    font-size: 1rem;
+    margin: 5px 0px 20px 0;
+    text-shadow: 0 0 5px white, 0 0 10px white;
+}
+
+@media (min-width: 768px) {
+    .myinfo>div>h1 {
+        font-size: 3.5rem;
+    }
+
+    .myinfo>div>p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .myinfo>div>h1 {
+        font-size: 4rem;
+    }
+
+    .myinfo>div>p {
+        font-size: 1.5rem;
+    }
+}
+
+/*==============================
+=           Buttons            =
+==============================*/
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.primary_btn {
+    background-color: #E13A4B;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fcf8ef;
+}
+
+.btn_w_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+/*==============================
+=           About Page         =
+==============================*/
+.aboutpage {}
+
+.about_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    color: white;
+}
+
+.about_btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.about_texts,
+.about_img {
+    flex: 1;
+}
+
+.about_img {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.bankai {
+    color: #E13A4B;
+}
+
+
+
+
+.contact_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.contact_title {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.blog_info {
+    height: 70vh;
+    color: red !important;
+}
+
+.blog_info p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

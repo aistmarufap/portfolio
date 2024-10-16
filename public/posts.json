@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to the MERN Stack",
+    "photo": "https://via.placeholder.com/1920x1080?text=MERN+Stack+Introduction",
+    "category": "Web Development",
+    "post": "The MERN stack is a popular web development stack consisting of MongoDB, Express.js, React, and Node.js. It's widely used for building full-stack JavaScript applications."
+  },
+  {
+    "id": 2,
+    "title": "Getting Started with MongoDB in MERN",
+    "photo": "https://via.placeholder.com/1920x1080?text=MongoDB+Guide",
+    "category": "Database",
+    "post": "MongoDB is a NoSQL database used in the MERN stack. This guide covers how to set up MongoDB and integrate it into your MERN applications."
+  },
+  {
+    "id": 3,
+    "title": "Building REST APIs with Express.js",
+    "photo": "https://via.placeholder.com/1920x1080?text=Express+API+Development",
+    "category": "Backend",
+    "post": "Express.js is a web application framework for Node.js that makes it easy to create APIs. Learn how to build a RESTful API using Express in your MERN stack projects."
+  },
+  {
+    "id": 4,
+    "title": "React Components: Best Practices",
+    "photo": "https://via.placeholder.com/1920x1080?text=React+Components",
+    "category": "Frontend",
+    "post": "React components are the building blocks of modern web applications. This post explores best practices for creating reusable and efficient React components."
+  },
+  {
+    "id": 5,
+    "title": "State Management with React Hooks",
+    "photo": "https://via.placeholder.com/1920x1080?text=React+Hooks",
+    "category": "Frontend",
+    "post": "React Hooks like useState and useEffect have revolutionized the way state is managed in React applications. Learn how to use hooks to manage state effectively."
+  },
+  {
+    "id": 6,
+    "title": "Node.js for Server-Side JavaScript",
+    "photo": "https://via.placeholder.com/1920x1080?text=Node.js+Backend",
+    "category": "Backend",
+    "post": "Node.js is the runtime environment that powers the server-side of MERN stack applications. Discover how to set up a Node.js server and connect it with your React frontend."
+  },
+  {
+    "id": 7,
+    "title": "Authentication with JWT in MERN",
+    "photo": "https://via.placeholder.com/1920x1080?text=JWT+Authentication",
+    "category": "Security",
+    "post": "Secure your MERN applications by implementing JWT (JSON Web Tokens) for user authentication and authorization. This tutorial explains how to set up JWT-based security."
+  },
+  {
+    "id": 8,
+    "title": "Deploying MERN Applications to Heroku",
+    "photo": "https://via.placeholder.com/1920x1080?text=Heroku+Deployment",
+    "category": "Deployment",
+    "post": "Learn how to deploy your MERN stack application to Heroku, a popular cloud platform, and configure the environment for a smooth deployment."
+  },
+  {
+    "id": 9,
+    "title": "Testing MERN Applications with Jest",
+    "photo": "https://via.placeholder.com/1920x1080?text=Jest+Testing",
+    "category": "Testing",
+    "post": "Testing is crucial for building reliable web applications. This guide shows you how to use Jest for unit testing your React components and Express APIs."
+  },
+  {
+    "id": 10,
+    "title": "Building Real-Time Apps with Socket.io",
+    "photo": "https://via.placeholder.com/1920x1080?text=Real-Time+Apps+with+Socket.io",
+    "category": "Real-Time Apps",
+    "post": "Socket.io allows you to build real-time, bidirectional communication applications. Learn how to integrate Socket.io into your MERN stack for real-time features like chat and notifications."
+  }
+]
